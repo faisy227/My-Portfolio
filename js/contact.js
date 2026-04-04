@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             submitBtn.disabled = true;
 
             // Send email using EmailJS
-            emailjs.send('service_jb6r3vj', 'template_x5plxbw', formData)
+            emailjs.send('service_l5jskyz', 'template_x5plxbw', formData)
                 .then(function(response) {
                     // Show success message
                     alert('Message sent successfully! I will get back to you soon.');
